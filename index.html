@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./style.css">
+
+    <script src="./script.js" defer></script>
+    
+    <title>Riot Games</title>
+</head>
+<body>
+
+    <main>
+        <section class="login">
+
+            <div class="wrapper">
+                <img src="./images/logo.jpg" class="login_logo">
+
+                <h1 class="login_title">Fazer login</h1>
+    
+                <label class="login_label">
+                    <span>nome de usuário</span>
+                    <input type="text" name="username" class="input">
+                </label>
+    
+                <label class="login_label">
+                    <span>senha</span>
+                    <input type="password" name="password" class="input">
+                </label>
+    
+                <div class="login-icons">
+                    <button type="button" class="icons_buttons">
+                        <img src="./images/facebook_icon.jpg" alt="facebook">
+                    </button>
+    
+                    <button type="button" class="icons_buttons">
+                        <img src="./images/google_icon.png" alt="google">
+                    </button>
+    
+                    <button type="button" class="icons_buttons">
+                        <img src="./images/apple_icon.png" alt="apple">
+                    </button>
+    
+                </div>
+    
+                <label class="login_label--checkbox">
+                    <input type="checkbox" class="input--checkbox">
+                    Manter login
+                </label>
+            </div>
+
+            <div class="wrapper">
+                <button type="button" class="login_button" disabled>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">
+                        <path style="fill:#232326" d="m17.5 5.999-.707.707 5.293 5.293H1v1h21.086l-5.294 5.295.707.707L24 12.499l-6.5-6.5z" data-name="Right"/>
+                    </svg>
+                </button>
+    
+                <a href="#" class="login_link">não consegue iniciar sessão?</a>
+                <a href="#" class="login_link"> criar conta</a>                
+            </div>
+
+        </section>
+
+        <section class="wallpaper"></section>
+    </main>
+    
+</body>
+</html>
